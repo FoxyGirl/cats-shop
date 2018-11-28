@@ -46,7 +46,6 @@ class HomePage extends Component {
             ))}
           </Select>
         )}
-        <br />
         <Goods selectedCategoryIds={selectedCategoryIds} />
       </div>
     )
