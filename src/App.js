@@ -4,7 +4,7 @@ import { dispatch } from './store'
 import { readBasket } from './ducks/basket'
 import { renderRoutes } from 'react-router-config'
 import { Link } from 'react-router-dom'
-import { Layout, Menu, Breadcrumb, Badge } from 'antd'
+import { Layout, Menu, Breadcrumb, Badge, Icon } from 'antd'
 import './App.css'
 
 const { Header, Content, Footer } = Layout
@@ -36,9 +36,9 @@ class App extends Component {
               <Link to="/">Home</Link>
             </MenuItem>
             <MenuItem>
-              <Badge count={basketCount}>
-                <Link to="/basket">Basket</Link>
-              </Badge>
+              <Link to="/basket">
+                <Badge count={basketCount}>Basket</Badge>
+              </Link>
             </MenuItem>
           </Menu>
         </Header>
@@ -51,7 +51,7 @@ class App extends Component {
           {renderRoutes(routes)}
         </Content>
         <Footer style={this.footerStyle}>
-          Best App &copy; {new Date().getFullYear()} Created by Capricorn Inc.
+          Cats Shop &copy; {new Date().getFullYear()} Created by Humansee Labs.
         </Footer>
       </Layout>
     )
