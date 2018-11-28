@@ -1,0 +1,63 @@
+{
+  "goods": [
+    {
+      "id": "1",
+      "categoryId": "1",
+      "title": "good1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius similique unde omnis hic voluptate dolorem id nemo, consequuntur iure accusantium."
+    },
+    {
+      "id": "2",
+      "categoryId": "1",
+      "title": "good2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius similique unde omnis hic voluptate dolorem id nemo, consequuntur iure accusantium."
+    },
+    {
+      "id": "3",
+      "categoryId": "1",
+      "title": "good3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius similique unde omnis hic voluptate dolorem id nemo, consequuntur iure accusantium."
+    },
+    {
+      "id": "4",
+      "categoryId": "2",
+      "title": "good4",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius similique unde omnis hic voluptate dolorem id nemo, consequuntur iure accusantium."
+    },
+    {
+      "id": "5",
+      "categoryId": "2",
+      "title": "good5",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius similique unde omnis hic voluptate dolorem id nemo, consequuntur iure accusantium."
+    },
+    {
+      "id": "6",
+      "categoryId": "2",
+      "title": "good6",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius similique unde omnis hic voluptate dolorem id nemo, consequuntur iure accusantium."
+    },
+    {
+      "id": "7",
+      "categoryId": "3",
+      "title": "good7",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius similique unde omnis hic voluptate dolorem id nemo, consequuntur iure accusantium."
+    },
+    {
+      "id": "8",
+      "categoryId": "3",
+      "title": "good8",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius similique unde omnis hic voluptate dolorem id nemo, consequuntur iure accusantium."
+    },
+    {
+      "id": "9",
+      "categoryId": "3",
+      "title": "good9",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius similique unde omnis hic voluptate dolorem id nemo, consequuntur iure accusantium."
+    }
+  ],
+  "categories": [
+    { "id": "1", "title": "Apple" },
+    { "id": "2", "title": "Google" },
+    { "id": "3", "title": "Microsoft" }
+  ]
+}
